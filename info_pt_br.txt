@@ -1,0 +1,25 @@
+📌 Resumo das Colunas do Dataset (PT-BR)
+
+Accident_Index → Identificador único para cada acidente.
+Accident Date → Data do acidente (datetime).
+Month → Mês em que ocorreu (Jan, Feb...).
+Day_of_Week → Dia da semana (Monday, Tuesday...).
+Year → Ano do acidente (int).
+Junction_Control → Tipo de controle no cruzamento (Give way, Traffic signal...).
+Junction_Detail → Configuração do cruzamento (T-junction, Roundabout...).
+Accident_Severity → Gravidade do acidente (Slight, Serious, Fatal).
+Latitude → Coordenada geográfica (graus decimais).
+Longitude → Coordenada geográfica (graus decimais).
+Light_Conditions → Condições de iluminação (Daylight, Darkness - lights lit...).
+Local_Authority_(District) → Região administrativa onde ocorreu o acidente.
+Carriageway_Hazards → Perigos na pista (None, Oil or diesel, Mud...).
+Number_of_Casualties → Número de vítimas no acidente.
+Number_of_Vehicles → Número de veículos envolvidos.
+Police_Force → Força policial responsável pelo atendimento do acidente.
+Road_Surface_Conditions → Condições do asfalto (Dry, Wet or damp, Frost or ice...).
+Road_Type → Tipo de rodovia (Single carriageway, Dual carriageway, One way street...).
+Speed_limit → Limite de velocidade na via (km/h).
+Time → Hora do acidente (formato hh:mm:ss, mas armazenado como texto).
+Urban_or_Rural_Area → Se o acidente ocorreu em área urbana ou rural.
+Weather_Conditions → Condições do clima (Fine no high winds, Raining, Snowing...).
+Vehicle_Type → Tipo de veículo envolvido (Car, Motorcycle over 500cc, Taxi...).
