@@ -22,7 +22,7 @@ Organização do código em arquivos separados para funções de pré-processame
 # Como Usar
 
 1. Clone este repositório para o seu ambiente local:
-git clone ...
+git clone https://github.com/bernardobadc/analise-de-acidentes-rodovias-UK.git
 
 2. Instale as dependências necessárioas:
 pip install -r requirements.txt
