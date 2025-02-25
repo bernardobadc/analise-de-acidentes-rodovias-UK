@@ -1,37 +1,57 @@
-# Análise Exploratória de Dados de Acidentes em Rodovias do Reino Unido
+# Exploratory Data Analysis of Road Accidents in the United Kingdom
 
-### Descrição
-Este projeto de Análise Exploratória de Dados (EDA) busca examinar a ocorrência de acidentes em rodovias do Reino Unido, com foco em identificar padrões e possíveis causas dos acidentes. A análise foi realizada utilizando um conjunto de dados contendo informações sobre a localização (latitude e longitude), gravidade e outros fatores relevantes dos acidentes.
+### Description
 
-### Objetivos do Projeto
-Explorar e visualizar a distribuição geográfica dos acidentes nas rodovias do Reino Unido.
-Investigar possíveis variáveis relacionadas a fatores que podem influenciar a ocorrência de acidentes, como a hora do dia, condições meteorológicas, e tipos de acidentes.
+This Exploratory Data Analysis (EDA) project aims to examine the occurrence of accidents on UK roads, focusing on identifying patterns and potential causes. The analysis was conducted using a dataset containing information on location (latitude and longitude), severity, and other relevant accident factors.
 
-Criar um mapa de calor dinâmico para ilustrar as áreas de maior concentração de acidentes, usando as coordenadas geográficas.
-Gerar gráficos e análises para facilitar a compreensão dos dados e ajudar na tomada de decisões.
+### Project Objectives
 
-### Ferramentas e Bibliotecas Utilizadas
-Pandas: Para manipulação e análise dos dados.
-Matplotlib e Seaborn: Para visualização gráfica dos dados.
-Folium e GeoPandas: Para criação do mapa de calor e análise geoespacial.
-OS: Para manipulação de arquivos e comandos do Sistema Operacional.
+- Explore and visualize the geographical distribution of road accidents in the UK.
 
-### Próximos passos
-Organização do código em arquivos separados para funções de pré-processamento e plotagem.
+- Investigate possible variables related to factors that may influence accident occurrences, such as time of day, weather conditions, and accident types.
 
-# Como Usar
+- Create a dynamic heatmap to illustrate areas with high accident concentrations using geographical coordinates.
 
-1. Clone este repositório para o seu ambiente local:
+- Generate charts and analyses to facilitate data understanding and support decision-making.
+
+### Tools and Libraries Used
+
+Pandas: For data manipulation and analysis.
+
+Matplotlib and Seaborn: For graphical data visualization.
+
+Folium and GeoPandas: For creating the heatmap and geospatial analysis.
+
+OS: For file handling and system commands.
+
+### Heatmap Visualization
+
+The interactive heatmap generated with the Folium library is not rendered directly on GitHub because this type of content requires dynamic execution. To overcome this limitation, the heatmap has been saved as an HTML file, which can be viewed separately in a web browser.
+
+To access the heatmap, open the file: heatmap.html
+
+Alternatively, you can run the notebook locally to generate and view the heatmap dynamically.
+
+### Next Steps
+
+Organize the code into separate files for preprocessing and plotting functions.
+
+### How to Use
+
+1. Clone this repository to your local environment:
+
 git clone https://github.com/bernardobadc/analise-de-acidentes-rodovias-UK.git
 
-2. Instale as dependências necessárioas:
+2. Install the required dependencies:
+
 pip install -r requirements.txt
 
-3. Execute o notebook ou os scripts para visualizar as análises e gráficos.
+3. Run the notebook or scripts to view the analyses and charts.
 
-### Conclusões e Insights
-Através da análise exploratória, foram identificadas zonas de alta concentração de acidentes, além de padrões que sugerem que fatores como a hora do dia e as condições climáticas desempenham um papel importante na ocorrência de acidentes. Os gráficos e mapas gerados são ferramentas úteis para visualização desses padrões e podem contribuir para ações de prevenção e planejamento de segurança nas rodovias.
+### Conclusions and Insights
 
-### Contribuições
-Contribuições são bem-vindas! Se você tem sugestões ou melhorias, fique à vontade para abrir uma issue ou fazer um pull request.
+Through exploratory analysis, high-accident concentration zones were identified, along with patterns suggesting that factors such as time of day and weather conditions play a significant role in accident occurrences. The generated charts and maps are valuable tools for visualizing these patterns and can contribute to preventive actions and road safety planning.
 
+### Contributions
+
+Contributions are welcome! If you have suggestions or improvements, feel free to open an issue or submit a pull request.
