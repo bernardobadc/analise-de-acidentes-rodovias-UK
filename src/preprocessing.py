@@ -27,38 +27,6 @@ def convert_to_category(df: pd.DataFrame, categorical_cols: list) -> pd.DataFram
     return df
 
 
-def handle_missing_values(df: pd.DataFrame, cols_to_drop: list) -> pd.DataFrame:
-    """
-    Handle missing values in the dataset by removing specified columns
-    and dropping any remaining rows with NaN values.
-
-    Parameters
-    ----------
-    df : pd.DataFrame
-        The DataFrame containing the accident data.
-    cols_to_drop : list
-        List of column names to be removed due to excessive missing values.
-
-    Returns
-    -------
-    pd.DataFrame
-        The DataFrame with specified columns removed and all remaining NaN values dropped.
-
-    Notes
-    -----
-    - Columns with excessive missing values should be manually specified.
-    - After removing those columns, the function drops any rows that still contain NaN values.
-    - The function modifies the original DataFrame and returns the updated version.
-    """
-    # Dropping specified columns due to high missing value counts
-    df.drop(columns=cols_to_drop, inplace=True)
-
-    # Dropping any remaining rows with missing values
-    df.dropna(inplace=True)
-
-    return df
-
-
 def display_unique_values(df: pd.DataFrame, columns_to_skip: list) -> None:
     """
     Display the unique values for each column in the DataFrame,
